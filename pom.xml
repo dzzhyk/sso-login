@@ -13,7 +13,6 @@
         <module>app1</module>
         <module>app2</module>
         <module>sso-server</module>
-        <module>sso-pom</module>
     </modules>
 
 
