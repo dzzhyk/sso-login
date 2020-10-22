@@ -1,8 +1,9 @@
 package com.sixgroup.ssoserver;
 
-import com.yankaizhang.ssoclient.constant.Auth;
-import com.yankaizhang.ssoclient.entity.TokenInfo;
-import com.yankaizhang.ssoclient.util.JwtUtil;
+
+import com.sixgroup.ssoclient.constant.Auth;
+import com.sixgroup.ssoclient.entity.TokenInfo;
+import com.sixgroup.ssoclient.util.JwtUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

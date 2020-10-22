@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <artifactId>sso</artifactId>
-    <groupId>com.yankaizhang</groupId>
+    <artifactId>sso-login</artifactId>
+    <groupId>com.sixgroup</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 
@@ -14,8 +14,6 @@
   <packaging>war</packaging>
 
   <name>app2</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,7 +23,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.yankaizhang</groupId>
+      <groupId>com.sixgroup</groupId>
       <artifactId>sso-client</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>

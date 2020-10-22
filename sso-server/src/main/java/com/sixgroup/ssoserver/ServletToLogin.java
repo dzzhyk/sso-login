@@ -1,6 +1,6 @@
-package com.yankaizhang.ssoserver.servlet;
+package com.sixgroup.ssoserver;
 
-import com.yankaizhang.ssoclient.constant.Auth;
+import com.sixgroup.ssoclient.constant.Auth;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
