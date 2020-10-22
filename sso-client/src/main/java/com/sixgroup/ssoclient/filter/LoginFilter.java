@@ -24,6 +24,13 @@ public class LoginFilter implements Filter {
 
         String token = null;
         Cookie[] cookies = ((HttpServletRequest) req).getCookies();
+        if (null == cookies){
+            // cookies判空
+            System.out.println("token解析失败");
+            String loginUrl = config.getInitParameter(Auth.LOGIN_URL);
+            ((HttpServletResponse)resp).sendRedirect(loginUrl+"?" + Auth.CLIENT_URL + "="+ ((HttpServletRequest) req).getRequestURL());
+            return;
+        }
         for (Cookie cookie : cookies) {
             if (Auth.TOKEN.equals(cookie.getName())){
                 token = cookie.getValue();
