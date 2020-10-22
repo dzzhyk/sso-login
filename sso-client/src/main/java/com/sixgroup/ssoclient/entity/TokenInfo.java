@@ -1,4 +1,4 @@
-package com.yankaizhang.ssoclient.entity;
+package com.sixgroup.ssoclient.entity;
 
 public class TokenInfo {
     private String username;

@@ -1,4 +1,4 @@
-package com.yankaizhang.ssoclient.constant;
+package com.sixgroup.ssoclient.constant;
 
 public interface Auth {
     // 登录中心url

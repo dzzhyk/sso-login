@@ -1,11 +1,10 @@
-package com.yankaizhang.ssoclient.filter;
+package com.sixgroup.ssoclient.filter;
 
-import com.yankaizhang.ssoclient.constant.Auth;
-import com.yankaizhang.ssoclient.entity.TokenInfo;
-import com.yankaizhang.ssoclient.util.JwtUtil;
+import com.sixgroup.ssoclient.constant.Auth;
+import com.sixgroup.ssoclient.entity.TokenInfo;
+import com.sixgroup.ssoclient.util.JwtUtil;
 
 import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

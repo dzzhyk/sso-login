@@ -1,4 +1,4 @@
-package com.yankaizhang.ssoclient.util;
+package com.sixgroup.ssoclient.util;
 
 import com.auth0.jwt.JWTSigner;
 import com.auth0.jwt.JWTVerifier;
